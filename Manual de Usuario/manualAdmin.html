@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual de Administrador – SERPROM Gestión</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary: #2A5C82;
+      --color-secondary: #5C8CA7;
+      --color-accent: #F2B705;
+    }
+    body { background: #f8f9fa; }
+    header { background: var(--color-primary); color: white; padding: 2rem 0; }
+    .section-title { border-left: 5px solid var(--color-accent); padding-left: .75rem; margin-top: 2rem; }
+    .toc a { color: var(--color-primary); text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header class="text-center">
+  <div class="container">
+    <h1>SERPROM Gestión</h1>
+    <p class="lead">Manual de Usuario – Perfil Administrador</p>
+  </div>
+</header>
+
+<nav class="container toc py-3">
+  <h5>Índice</h5>
+  <ul class="list-unstyled">
+    <li><a href="#introduccion">1. Función del Administrador</a></li>
+    <li><a href="#gestion">2. Gestión de Usuarios</a></li>
+    <li><a href="#ordenes">3. Control de Órdenes</a></li>
+    <li><a href="#mantenimientos">4. Mantenimiento de Equipos</a></li>
+    <li><a href="#facturacion">5. Gestión de Facturación</a></li>
+    <li><a href="#reportes">6. Reportes y Estadísticas</a></li>
+    <li><a href="#seguridad">7. Seguridad y Roles</a></li>
+    <li><a href="#recomendaciones">8. Recomendaciones</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+  <section id="introduccion">
+    <h2 class="section-title">1. Función del Administrador</h2>
+    <p>El usuario con perfil <strong>Administrador</strong> en SERPROM Gestión tiene acceso completo a todas las funciones del sistema. Es responsable de:</p>
+    <ul>
+      <li>Crear, modificar y eliminar registros (clientes, técnicos, equipos).</li>
+      <li>Supervisar y asignar órdenes de trabajo.</li>
+      <li>Controlar el flujo de facturación y pagos.</li>
+      <li>Revisar reportes operativos y estadísticas.</li>
+      <li>Gestionar permisos y usuarios del sistema.</li>
+    </ul>
+  </section>
+
+  <section id="gestion">
+    <h2 class="section-title">2. Gestión de Usuarios</h2>
+    <p>Desde el módulo de usuarios, el administrador puede:</p>
+    <ul>
+      <li>Registrar nuevos usuarios (técnicos, operadores).</li>
+      <li>Asignar roles (técnico, administrativo, cliente).</li>
+      <li>Editar contraseñas o datos personales.</li>
+      <li>Desactivar cuentas temporalmente.</li>
+    </ul>
+  </section>
+
+  <section id="ordenes">
+    <h2 class="section-title">3. Control de Órdenes</h2>
+    <p>Puede crear nuevas órdenes de trabajo, asignar técnicos, definir fechas, estados, y marcar el tipo de servicio: preventivo, correctivo, instalación, etc.</p>
+    <p>El panel muestra un historial completo de cada orden con detalles de ejecución y observaciones.</p>
+  </section>
+
+  <section id="mantenimientos">
+    <h2 class="section-title">4. Mantenimiento de Equipos</h2>
+    <p>En la vista de mantenimientos, puede:</p>
+    <ul>
+      <li>Programar mantenimientos preventivos.</li>
+      <li>Registrar mantenimientos correctivos.</li>
+      <li>Ver histórico por equipo, técnico o cliente.</li>
+    </ul>
+  </section>
+
+  <section id="facturacion">
+    <h2 class="section-title">5. Gestión de Facturación</h2>
+    <p>Desde el módulo de ventas puede:</p>
+    <ul>
+      <li>Emitir facturas de servicios.</li>
+      <li>Registrar pagos recibidos y comprobantes.</li>
+    </ul>
+  </section>
+
+  <section id="reportes">
+    <h2 class="section-title">6. Reportes y Estadísticas</h2>
+    <p>Se puede acceder a:</p>
+    <ul>
+      <li>Reportes filtrados por cliente, técnico, fecha o tipo de servicio.</li>
+    </ul>
+  </section>
+
+  <section id="seguridad">
+    <h2 class="section-title">7. Seguridad y Roles</h2>
+    <p>El administrador tiene la posibilidad de:</p>
+    <ul>
+      <li>Definir roles personalizados.</li>
+      <li>Configurar niveles de acceso a cada módulo.</li>
+      <li>Visualizar logs o historial de acceso al sistema.</li>
+    </ul>
+  </section>
+
+  <section id="recomendaciones">
+    <h2 class="section-title">8. Recomendaciones</h2>
+    <ul>
+      <li>Respaldar la base de datos semanalmente.</li>
+      <li>Revisar reportes y desempeño de técnicos al cierre de cada mes.</li>
+      <li>Actualizar las credenciales de acceso regularmente.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="bg-secondary text-white text-center py-4">
+  <div class="container">
+    <small>© 2025 SERPROM Gestión – Manual Administrador</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

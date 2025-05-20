@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual SERPROM Gestión</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f4f6f8; }
+    .hero { background-color: #2A5C82; color: white; padding: 4rem 2rem; text-align: center; }
+    .card-link { text-decoration: none; color: inherit; }
+    .manual-card {
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+    .manual-card:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1 class="display-4">SERPROM Gestión</h1>
+    <p class="lead">Accede al manual según tu perfil de usuario</p>
+  </div>
+</header>
+
+<main class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 mb-4">
+      <a href="manualClientes.html" class="card-link">
+        <div class="card manual-card shadow">
+          <div class="card-body text-center">
+            <h3 class="card-title text-primary">Manual del Cliente</h3>
+            <p class="card-text">Instrucciones claras para los usuarios que consultan servicios, órdenes y solicitudes.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-6 mb-4">
+      <a href="manualAdmin.html" class="card-link">
+        <div class="card manual-card shadow">
+          <div class="card-body text-center">
+            <h3 class="card-title text-primary">Manual del Administrador</h3>
+            <p class="card-text">Gestión total de usuarios, equipos, órdenes, mantenimientos y facturación.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <small>© 2025 SERPROM Gestión – Manuales de Usuario</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
